@@ -1,0 +1,28 @@
+:host {
+  --egeo-stmodal__shadow: 0 1px 40px 0 hsla(0,30%,43.9%,.8);
+}
+
+.rotate-example {
+  margin-top: 200px;
+
+  .rotate-elem {
+    display: inline-block;
+    margin-right: 40px;
+    height: 100px;
+    margin-bottom: 40px;
+    width: 100px;
+    border: 1px solid black;
+    animation: rotation 10s infinite linear;
+    animation-duration: var(--animation-duration);
+  }
+}
+
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
+}

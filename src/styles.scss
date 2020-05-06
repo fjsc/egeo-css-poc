@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@stratio/egeo/theme/sanitize';
+@import '~@stratio/egeo/theme/grid.css';
+@import '~@stratio/egeo/theme/theme.css';
+@import '~@stratio/egeo/theme/constants';
+
+@import '~@stratio/egeo-ui-base/nunito-sans.css';
+@import '~@stratio/egeo-ui-base/stratio-fonticon.css';
+
+body {
+  --egeo-theme-main-font: 'Roboto', sans-serif;
+  --egeo-grid---max: 1920px;
+  --egeo-theme-action: red;
+}
+
+button {
+  --egeo-theme-action: #19802e;
+  --egeo-theme-error: pink;
+}
+
+
+/*
+--egeo-theme-brand: #37B5E4;
+
+// action:
+--egeo-theme-action: #0776DF;
+--egeo-theme-action-10: #E6F1FC;
+--egeo-theme-action-40: #9CC8F2;
+--egeo-theme-action-60: #6AADEC;
+--egeo-theme-action-80: #3991E5;
+--egeo-theme-action-120: #065EB2;
+--egeo-theme-action-150: #033B70;
+
+// space:
+--egeo-theme-space: #27323D;
+--egeo-theme-space-5: #F3F6F8;
+--egeo-theme-space-10: #EAEFF5;
+--egeo-theme-space-20: #CDD6DF;
+--egeo-theme-space-30: #AAB7C4;
+--egeo-theme-space-40: #A5B1BC;
+--egeo-theme-space-50: #8898A7;
+--egeo-theme-space-70: #6C7B8B;
+--egeo-theme-space-80: #566574;
+--egeo-theme-space-110: #0F1B27;
+
+// success:
+--egeo-theme-success: #0CAA70;
+--egeo-theme-success-10: #E7F7F1;
+--egeo-theme-success-120: #0A885A;
+--egeo-theme-success-140: #076643;
+
+// warning:
+--egeo-theme-warning: #EC7E13;
+--egeo-theme-warning-10: #FDF2E7;
+--egeo-theme-warning-120: #BD650F;
+--egeo-theme-warning-140: #8E4C0B;
+
+// error:
+--egeo-theme-error: #DF2935;
+--egeo-theme-error-10: #FCEAEB;
+--egeo-theme-error-120: #B2212A;
+--egeo-theme-error-140: #861920;
+
+// neutral:
+--egeo-theme-neutral: #111111;
+--egeo-theme-neutral-2: #FAFAFA;
+--egeo-theme-neutral-4: #F5F5F5;
+--egeo-theme-neutral-8: #ECECEC;
+--egeo-theme-neutral-10: #E7E7E7;
+--egeo-theme-neutral-15: #DBDBDB;
+--egeo-theme-neutral-20: #CFCFCF;
+--egeo-theme-neutral-30: #B8B8B8;
+--egeo-theme-neutral-40: #A0A0A0;
+--egeo-theme-neutral-50: #888888;
+--egeo-theme-neutral-60: #707070;
+--egeo-theme-neutral-70: #585858;
+--egeo-theme-neutral-80: #414141;
+--egeo-theme-neutral-full: #FFFFFF;
+
+// misc:
+--egeo-theme-misc-coral:            #fa7167;
+--egeo-theme-misc-coral-light:      #ffcac6;
+--egeo-theme-misc-tangerine:        #fa9c7d;
+--egeo-theme-misc-tangerine-light:  #ffd4c5;
+--egeo-theme-misc-peach:            #fdbd2b;
+--egeo-theme-misc-peach-light:      #fff0c4;
+--egeo-theme-misc-olive:            #acc952;
+--egeo-theme-misc-olive-light:      #e9f3d0;
+--egeo-theme-misc-turquoise:        #2dcfbe;
+--egeo-theme-misc-turquoise-light:  #b4eeea;
+--egeo-theme-misc-aqua:             #3dc9fc;
+--egeo-theme-misc-aqua-light:       #bce7f6;
+--egeo-theme-misc-viking:           #77b1e1;
+--egeo-theme-misc-viking-light:     #cde3f8;
+--egeo-theme-misc-lavender:         #cd89d2;
+--egeo-theme-misc-lavender-light:   #f5daf7;
+
+// deprecated:
+--egeo-theme-status-warning-default: #fa932f;
+--egeo-theme-neutral-14: #f0f0f0;
+--egeo-theme-input-field-onfocus: #88c5ee;
+--egeo-theme-input-field-error: #f59ea9;
+*/
